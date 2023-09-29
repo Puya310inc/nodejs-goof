@@ -19,7 +19,7 @@ var fs = require('fs');
 // prototype-pollution
 var _ = require('lodash');
 
-exports.index = function (req, res, next) {
+exports.index = function (req, res, next) { 
   Todo.
     find({}).
     sort('-updated_at').
