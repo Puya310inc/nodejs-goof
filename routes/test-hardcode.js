@@ -48,6 +48,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(fileUpload());
 
+
 // Routes
 app.use(routes.current_user);
 app.get('/', routes.index);
